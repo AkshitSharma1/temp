@@ -12,5 +12,4 @@ style_model_name = st.sidebar.selectbox("Choose the style model: ", style_models
 
 if method == 'Image':
     image_input(style_model_name)
-else:
-    webcam_input(style_model_name)
+
